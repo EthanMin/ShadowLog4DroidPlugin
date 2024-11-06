@@ -54,7 +54,7 @@ public class ShadowLogPlugin implements Plugin<Project> {
 // * @since 2019/5/4
 // */
 //public class FileLogger {
-//
+
 //    private static SimpleDateFormat localFormat;
 //    private static Date localDate;
 //
@@ -67,9 +67,7 @@ public class ShadowLogPlugin implements Plugin<Project> {
 //    private static Handler fileHandler;
 //
 //    public static void init(Context context) {
-//        if (file != null) {
-//            return;
-//        }
+//        if (file != null) {return;}
 //        try {
 //            file = new File(context.getExternalCacheDir().getAbsolutePath() + "/ShadowLog/" + getTime("MM-dd HH:mm:ss") + "-Log.txt");
 //            File parent = file.getParentFile();
@@ -103,8 +101,7 @@ public class ShadowLogPlugin implements Plugin<Project> {
 //    }
 //
 //    private static String format(int level, String tag, String msg) {
-//        return String.format("%s %s/%s %s\n", getTime("MM-dd HH:mm:ss"), getPriorityInfo(level),
-//                tag, msg);
+//        return String.format("%s %s/%s %s\n", getTime("MM-dd HH:mm:ss"), getPriorityInfo(level),tag, msg);
 //    }
 //
 //    public static String getTime(String timePattern) {
