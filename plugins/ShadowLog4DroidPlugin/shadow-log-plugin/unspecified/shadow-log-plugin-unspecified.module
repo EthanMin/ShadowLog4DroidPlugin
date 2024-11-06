@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ShadowLog4DroidPlugin",
+    "module": "shadow-log-plugin",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "shadow-log-plugin-unspecified.jar",
+          "url": "shadow-log-plugin-unspecified.jar",
+          "size": 1251,
+          "sha512": "c8949dcb9f380e7add10f672f75f8e1ce53429e790bc6ab6c41b7b3b0c0e6aac8a15f3b2d075e22041539cfa4d742c94d7ac93383308cf32e120ad73bcaf4ab1",
+          "sha256": "c0e813cf2b8a92ffeac75c16b83a588a9f7a0087928edbfd6d9d19f040fd185e",
+          "sha1": "806355c3922eee2e52cb35849806d569a5d1775f",
+          "md5": "00fc3e29b4201873ecc40519dbb2e656"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "shadow-log-plugin-unspecified.jar",
+          "url": "shadow-log-plugin-unspecified.jar",
+          "size": 1251,
+          "sha512": "c8949dcb9f380e7add10f672f75f8e1ce53429e790bc6ab6c41b7b3b0c0e6aac8a15f3b2d075e22041539cfa4d742c94d7ac93383308cf32e120ad73bcaf4ab1",
+          "sha256": "c0e813cf2b8a92ffeac75c16b83a588a9f7a0087928edbfd6d9d19f040fd185e",
+          "sha1": "806355c3922eee2e52cb35849806d569a5d1775f",
+          "md5": "00fc3e29b4201873ecc40519dbb2e656"
+        }
+      ]
+    }
+  ]
+}
